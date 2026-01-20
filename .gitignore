@@ -1,5 +1,6 @@
 # Virtual environment
 ml_env/
+logs/
 
 # Dataset (large, not for GitHub)
 dataset/
