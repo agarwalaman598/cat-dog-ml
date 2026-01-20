@@ -13,6 +13,7 @@ y.npy
 __pycache__/
 *.pyc
 *.pyo
+.python-version
 
 # OS / editor junk
 .DS_Store
