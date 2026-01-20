@@ -1,114 +1,99 @@
-# Cat vs Dog Image Classification using Machine Learning
+<div align="center">
 
-## 📌 Objective
-To classify images as **Cat** or **Dog** using traditional **Machine Learning algorithms** and deploy the trained models using a **Flask web application**.
+# 🐱 Cat vs Dog Classifier 🐕
 
-This project is implemented as part of a Machine Learning laboratory experiment and avoids deep learning to demonstrate classical ML techniques on image data.
+**A Machine Learning web app that classifies images as Cat or Dog**
 
----
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-blue?style=for-the-badge)](https://agarwalaman.pythonanywhere.com/)
+[![Python](https://img.shields.io/badge/Python-3.11-green?style=flat-square&logo=python)](https://python.org)
+[![Flask](https://img.shields.io/badge/Flask-Web_App-black?style=flat-square&logo=flask)](https://flask.palletsprojects.com/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?style=flat-square&logo=scikit-learn)](https://scikit-learn.org/)
 
-## 🧠 Models Used
-- Logistic Regression  
-- Support Vector Machine (SVM)  
-- Random Forest  
-- K-Means Clustering (unsupervised)
+</div>
 
 ---
 
-## 📂 Project Structure
-```
-cat-dog-ml/
-├── app.py
-├── preprocess.py
-├── train_models.py
-├── requirements.txt
-├── README.md
-├── models/
-│   ├── logistic_regression.pkl
-│   ├── svm.pkl
-│   ├── random_forest.pkl
-│   └── kmeans.pkl
-├── templates/
-│   └── index.html
-└── static/
-    └── style.css
-```
+## ✨ Features
+
+- 🖼️ Upload any cat or dog image
+- 🤖 Choose from 4 ML models
+- ⚡ Instant predictions
+- 🎨 Clean, responsive UI
 
 ---
 
-## 🗂 Dataset
-- Dataset: Dogs vs Cats (Kaggle)
-- Structure:
-```
-dataset/
-├── cats/
-└── dogs/
-```
+## 🚀 Live Demo
 
-Dataset is not included in this repository due to size limitations.
+👉 **[https://agarwalaman.pythonanywhere.com](https://agarwalaman.pythonanywhere.com/)**
 
 ---
 
-## ⚙️ Installation & Setup
-
-### Create Virtual Environment
-```bash
-python -m venv ml_env
-ml_env\Scripts\activate
-```
-
-### Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 🔄 How to Run
-
-### Preprocess Images
-```bash
-python preprocess.py
-```
-
-### Train Models
-```bash
-python train_models.py
-```
-
-### Run Flask App
-```bash
-python app.py
-```
-
-Open browser:
-```
-http://127.0.0.1:5000
-```
-
----
-
-## 📊 Results (Approx. Accuracy)
+## 🧠 Models
 
 | Model | Accuracy |
-|------|---------|
+|:------|:--------:|
 | Logistic Regression | ~53% |
-| SVM | ~60% |
+| **SVM** | **~60%** |
 | Random Forest | ~58% |
 | K-Means | ~56% |
 
-Best model: **SVM**
+---
+
+## 🛠️ Tech Stack
+
+- **Backend:** Flask, Python
+- **ML:** scikit-learn, NumPy
+- **Image Processing:** OpenCV
+- **Frontend:** HTML, CSS
 
 ---
 
-## 📘 Key Learnings
-- Image preprocessing for ML
-- Supervised vs unsupervised learning
-- Model comparison
-- ML deployment with Flask
+## 📦 Local Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/agarwalaman598/cat-dog-ml.git
+cd cat-dog-ml
+
+# Create virtual environment
+python -m venv ml_env
+ml_env\Scripts\activate  # Windows
+source ml_env/bin/activate  # Mac/Linux
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+python app.py
+```
+
+Open: **http://127.0.0.1:5000**
+
+---
+
+## 📁 Project Structure
+
+```
+cat-dog-ml/
+├── app.py              # Flask web app
+├── preprocess.py       # Image preprocessing
+├── train_models.py     # Model training
+├── requirements.txt    # Dependencies
+├── models/             # Trained models (.pkl)
+├── templates/          # HTML templates
+└── static/             # CSS styles
+```
 
 ---
 
 ## 👤 Author
-Aman Agarwal  
 
+**Aman Agarwal**
+
+---
+
+<div align="center">
+
+⭐ Star this repo if you found it helpful!
+
+</div>
