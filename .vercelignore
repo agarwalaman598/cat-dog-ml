@@ -1,0 +1,7 @@
+dataset/
+ml_env/
+X.npy
+y.npy
+*.ipynb
+__pycache__/
+.git/
